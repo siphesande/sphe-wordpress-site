@@ -1,0 +1,138 @@
+
+/*
+Theme Name: Sphe Malgas
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Sphe
+Author URI: http://wordpress.org/
+Description: This is a theme for making professional personal website.
+Version: 1.0
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: sphe malgas
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+img {
+  border-radius: 50%;
+}
+article p {
+  border-left: 6px solid gray;
+  background-color: #f2f2f2;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+p, li {
+  color: black;
+}
+body{
+  font-family:Verdana;
+  color:#aaaaaa;
+  padding-left:50px;
+  padding-right:50px;
+}
+.top-page {
+   height: 280px;
+   background-image: url("https://media-public.canva.com/MADGxC_R3tQ/6/screen_2x.jpg");
+   background-color:#e5e5e5;
+   padding:15px;
+   text-align:center;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+.copyright{
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+ }
+#devname{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+ }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: red;
+  color: #767676;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  margin-top:20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+a:hover {
+  background-color: #F0EAB0  ;
+  color:#000;
+  border: 1px solid #C3BD7B;
+}
+ a {
+  display:block;
+  padding:8px;
+  text-decoration:none;
+  background-color: rgba(45, 45, 45, 0.1);
+  color:#FFF;
+}
+#footer {
+  background-color:#e5e5e5;
+}
+#social-media {
+  background-color:#e5e5e5;
+  text-align:center;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+  body {
+    padding:1px;
+ }
+  .top-page {
+   height:200px;
+}
